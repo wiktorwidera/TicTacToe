@@ -1,6 +1,6 @@
 public class Player {
     private String playerName;
-    private String playerSign;
+    private Symbol playerSymbol;
     private int playerWinCounter = 0;
 
     public void setPlayerName(String playerName) {
@@ -11,12 +11,12 @@ public class Player {
         return playerName;
     }
 
-    public void setPlayerSign(String playerSign) {
-        this.playerSign = playerSign;
+    public void setPlayerSymbol(Symbol playerSymbol) {
+        this.playerSymbol = playerSymbol;
     }
 
-    public String getPlayerSign() {
-        return playerSign;
+    public Symbol getPlayerSymbol() {
+        return playerSymbol;
     }
 
     public void setPlayerWinCounter(int playerWinCounter) {
