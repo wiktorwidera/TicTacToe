@@ -19,8 +19,8 @@ public class Player {
         return playerSymbol;
     }
 
-    public void setPlayerWinCounter(int playerWinCounter) {
-        this.playerWinCounter = playerWinCounter;
+    public void incrementPlayerWinCounter() {
+        this.playerWinCounter++;
     }
 
     public int getPlayerWinCounter() {
