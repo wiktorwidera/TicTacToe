@@ -1,7 +1,16 @@
 public class Player {
     private String playerName;
-    private Symbol playerSymbol;
+    private String playerSymbol;
     private int playerWinCounter = 0;
+    private boolean isComputer = false;
+
+    public void setIsComputer() {
+        this.isComputer = true;
+    }
+
+    public boolean getIsComputer() {
+        return isComputer;
+    }
 
     public void setPlayerName(String playerName) {
         this.playerName = playerName;
@@ -11,11 +20,11 @@ public class Player {
         return playerName;
     }
 
-    public void setPlayerSymbol(Symbol playerSymbol) {
+    public void setPlayerSymbol(String playerSymbol) {
         this.playerSymbol = playerSymbol;
     }
 
-    public Symbol getPlayerSymbol() {
+    public String getPlayerSymbol() {
         return playerSymbol;
     }
 
